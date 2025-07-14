@@ -16,3 +16,5 @@ print(type(age))
 print(type(name))
 print(type(height))
 print(type(s))
+
+print(height + age)
