@@ -5,7 +5,7 @@ if num > 0:
    print("Your number is postive")
 else:
    print("Your number is negitive ")
-"""
+
 item = str(input("What item are you buying?"))
 price = int(input("What is the cost of your item?"))
 selling = int(input("What price are you selling it for?"))
@@ -16,3 +16,11 @@ if selling > price:
 else:
     print("You are getting a loss of money?")
     print("Your loss is", price-selling)
+"""
+
+number = int(input("Please enter any number:"))
+
+if number%2==0:
+   print("Your number is even!")
+else:
+   print("Your number is odd!")
