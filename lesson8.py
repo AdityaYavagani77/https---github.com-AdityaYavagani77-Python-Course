@@ -4,7 +4,7 @@ b = 6
 h = 7
 
 print(b+h**a)
-"""
+
 
 a = int(input("Please enter a number:"))
 b = int(input("Please enter another number:"))
@@ -18,3 +18,9 @@ if b%a == 0:
     print("b is divisible by a")
 else:
     print("b is not divisible by a")
+"""
+s = 1520
+correct_sum = (s+20)
+print("corrected sum is", correct_sum)
+
+print("The mean will be", correct_sum/40)
