@@ -17,3 +17,26 @@ def weather_functions():
 
 weather_functions()
 """
+
+def Addition(a,b):
+    print(f"{a}+{b} = {a+b} ")
+
+def Subtraction(a,b):
+    print(f"{a}-{b} = {a-b} ")
+
+def Multiplication(a,b):
+    print(f"{a}*{b} = {a*b} ")
+
+def Division(a,b):
+    print(f"{a}/{b} = {a/b} ")
+
+x = int(input("Please enter a number to be Divided, Multiplied, Subtracted and Added:"))
+y = int(input("Please enter another number to be Divided, Multiplied, Subtracted and Added wit the other number:"))
+
+Division(x,y)
+
+Multiplication(x,y)
+
+Subtraction(x,y)
+
+Addition(x,y)
