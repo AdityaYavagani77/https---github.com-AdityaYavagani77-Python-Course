@@ -7,7 +7,7 @@ while var > 0:
         continue
     print(f"n/Current variable value: {var}.")
 print("Goodbye.")
-"""
+
 a = input("Please enter a word:")
 
 for i in a:
@@ -16,3 +16,19 @@ for i in a:
         break
     else:
         print("A not found")
+        """
+
+for x in range(21):
+    if x % 20==0:
+        print("twist")
+    
+    elif x % 15==0:
+        pass
+    
+    elif x % 5==0:
+        print("buzz")
+
+    elif x % 3==0:
+        print("fizz")
+
+    else:print(x)
