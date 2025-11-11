@@ -42,6 +42,6 @@ else:
 
 import math
 
-print("The Floor and Ceiling  value of 23.56 :" + str(math.ceil(23.56)) +"," + str(math.floor(23.56 )))
+print("The Floor and Ceiling  value of 23.56 :" + str(math.ceil(23.56)) +"," + str(math.floor(23.56 ))
 
 
