@@ -1,3 +1,4 @@
+"""
 tuplex = ("tuple", False, 3.2, 1)
 print(tuplex)
 
@@ -11,3 +12,24 @@ tuplex3 = (2,4,3,5,4,6,7,8,6,1)
 slice = tuplex3[:6]
 
 print(slice)
+"""
+
+def palind(r):
+    e = len(r)-1
+    s = 0
+    while (s<e):
+        if (r[e]!=r[s]):
+            return False
+        
+        s+=1
+        e-=1
+    return True
+    
+r = (1,2,3,3,2,1)
+
+if (palind(r)):
+    print("The Tuple is a Flip-Flop")
+else:
+    print("The Tuple is not a Flip-Flop")
+
+    
